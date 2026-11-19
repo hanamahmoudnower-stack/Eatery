@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Eatery</title>
+<link rel="stylesheet" href="Stylesheet.css">
+</head>
+<body>
+
+<header>
+  <h2>🌿 Eatery</h2>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<!-- حتة الويلكم - الصورة هي الخلفية -->
+<div class="hero">
+  <h1>Welcome to Eatery</h1>
+  <p>Fresh Homemade Delivered with love</p>
+</div>
+
+<!-- الكروت الثلاثة -->
+<div class="container">
+  <div class="card">
+  <h3>Top 5 Meals</h3>
+  <ol>
+    <li>Grilled Salmon - Lemon Herb</li>
+    <li>Margherita Pizza - Fresh Basil</li>
+    <li>Chicken Caesar Wrap</li>
+    <li>Beef Burger - Cheddar Cheese</li>
+    <li>Veggie Pasta - Tomato Sauce</li>
+  </ol>
+  </div>
+
+  <div class="card">
+    <h3>Our Best Seller</h3>
+    <img src="pasta.jpeg" alt="Creamy Pasta Alfredo">
+    <p><b>Creamy Pasta Alfredo</b><br>Our most popular - creamy, rich, and comforting</p>
+  </div>
+
+  <div class="card">
+    <h3>Daily Menu</h3>
+    <table>
+      <tr><th>Item</th><th>Price</th></tr>
+      <tr><td>Caesar Salad</td><td>$8.50</td></tr>
+      <tr><td>Pasta Alfredo</td><td>$12.00</td></tr>
+      <tr><td>Caprese Panini</td><td>$9.50</td></tr>
+      <tr><td>Iced Lemon Mint</td><td>$4.00</td></tr>
+    </table>
+  </div>
+</div>
+
+<!-- الفورم -->
+<form action="https://formspree.io/f/xxxxxx" method="POST">
+
+  <h2>Book a Table</h2>
+
+  <label for="name">Name</label>
+  <input 
+    type="text" 
+    id="name" 
+    name="name" 
+    placeholder="Your name" 
+    required
+  >
+
+  <label for="email">Email</label>
+  <input 
+    type="email" 
+    id="email" 
+    name="email" 
+    placeholder="you@email.com" 
+    required
+  >
+
+  <label for="message">Message</label>
+  <textarea 
+    id="message" 
+    name="message" 
+    rows="3" 
+    placeholder="Special requests..."
+  ></textarea>
+
+  <button type="submit">Submit Booking</button>
+
+</form>
+
+</body>
+</html>
