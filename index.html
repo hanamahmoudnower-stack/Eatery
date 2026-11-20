@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
+<meta charset="UTF-8" lang="en">
 <title>Eatery</title>
 <link rel="stylesheet" href="Stylesheet.css">
 </head>
@@ -16,22 +16,18 @@
   </nav>
 </header>
 
-<!-- حتة الويلكم - الصورة هي الخلفية -->
 <div class="hero">
   <h1>Welcome to Eatery</h1>
   <p>Fresh Homemade Delivered with love</p>
 </div>
 
-<!-- الكروت الثلاثة -->
 <div class="container">
   <div class="card">
-  <h3>Top 5 Meals</h3>
+  <h3>Top 3 Meals</h3>
   <ol>
     <li>Grilled Salmon - Lemon Herb</li>
     <li>Margherita Pizza - Fresh Basil</li>
     <li>Chicken Caesar Wrap</li>
-    <li>Beef Burger - Cheddar Cheese</li>
-    <li>Veggie Pasta - Tomato Sauce</li>
   </ol>
   </div>
 
@@ -53,40 +49,17 @@
   </div>
 </div>
 
-<!-- الفورم -->
-<form action="https://formspree.io/f/xxxxxx" method="POST">
-
+<form action="#" method="POST">
   <h2>Book a Table</h2>
 
   <label for="name">Name</label>
-  <input 
-    type="text" 
-    id="name" 
-    name="name" 
-    placeholder="Your name" 
-    required
-  >
-
+  <input type="text" id="name" name="name" placeholder="Your name" required>
   <label for="email">Email</label>
-  <input 
-    type="email" 
-    id="email" 
-    name="email" 
-    placeholder="you@email.com" 
-    required
-  >
-
+  <input type="email" id="email" name="email"  placeholder="you@email.com"  required>
   <label for="message">Message</label>
-  <textarea 
-    id="message" 
-    name="message" 
-    rows="3" 
-    placeholder="Special requests..."
-  ></textarea>
-
+  <textarea id="message" name="message" rows="3" placeholder="Special requests..." ></textarea>
   <button type="submit">Submit Booking</button>
 
 </form>
-
 </body>
 </html>
